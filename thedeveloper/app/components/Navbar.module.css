@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #1e1e1e; /* Darker background for navbar */
+  padding: 1rem 2rem; /* Spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; /* Equal spacing between links */
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin: 0 15px; /* Margin between links */
+}
+
+.navList a {
+  color: #03dac5; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navList a:hover {
+  color: #bb86fc; /* Accent color on hover */
+}
+
+@media (max-width: 600px) {
+  .navList {
+    flex-direction: column; /* Stack links vertically on small screens */
+    align-items: center;
+  }
+
+  .navList li {
+    margin: 10px 0; /* Space out links */
+  }
+}
