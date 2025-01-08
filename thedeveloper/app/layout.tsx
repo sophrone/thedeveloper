@@ -1,6 +1,6 @@
 import './globals.css';
-import Navbar from './components/Navbar'; // Adjust the path as needed
-import Footer from './components/Footer'; // Import the Footer component
+import Navbar from './components/Navbar'; 
+import Footer from './components/Footer'; 
 
 export const metadata = {
   title: 'thedeveloper',
@@ -8,7 +8,7 @@ export const metadata = {
 };
 
 interface Props {
-  children: React.ReactNode; // Explicitly define the type of children
+  children: React.ReactNode; 
 }
 
 export default function RootLayout({ children }: Props) {
@@ -16,10 +16,10 @@ export default function RootLayout({ children }: Props) {
     <html lang="en">
       <body>
         <header>
-          <Navbar /> {/* Navbar is used here */}
+          <Navbar /> 
         </header>
         <main>{children}</main>
-        <Footer /> {/* Footer is now included */}
+        <Footer /> 
       </body>
     </html>
   );

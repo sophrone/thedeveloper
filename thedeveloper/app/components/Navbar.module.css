@@ -23,7 +23,7 @@
 }
 
 .navList a:hover {
-  color: #bb86fc; /* Accent color on hover */
+  color: #fff; /* Accent color on hover */
 }
 
 @media (max-width: 600px) {

@@ -1,9 +1,7 @@
 .footer {
-  background-color: #1e1e1e; /* Darker background */
-  color: #b0b0b0; /* Secondary text color */
-  text-align: center; /* Center text */
-  padding: 1rem; /* Padding */
-  position: relative; /* Adjust as necessary */
-  width: 100%; /* Full width */
-  bottom: 0; /* Stick to the bottom */
+  background-color: #1e1e1e;
+  color: #b0b0b0;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
 }
