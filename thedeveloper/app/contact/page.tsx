@@ -15,7 +15,7 @@ export default function ContactPage() {
       </div>
       <div className={styles.socialMedia}>
         <h2 className={styles.subtitle}>Follow Me:</h2>
-        <p>Frontend Mentor: <a href="https://www.frontendmentor.io/profile/sophrone" target="_blank" rel="noopener noreferrer" className={styles.link}>Sophrone</a></p>
+        <p>FrontendMentor: <a href="https://www.frontendmentor.io/profile/sophrone" target="_blank" rel="noopener noreferrer" className={styles.link}>Sophrone</a></p>
       </div>
     </>
   );
