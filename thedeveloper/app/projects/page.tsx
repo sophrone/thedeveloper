@@ -38,7 +38,7 @@ export default function Projects() {
             using VueJs for the frontend.
           </p>
           <p className={styles.techStack}>Technologies: Vue.js, CSS</p>
-          <a href="https://www.instagram.com/beigeafrica/" target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+          <a href="https://www.beige.africa/" target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
             View Project
           </a>
         </li>
